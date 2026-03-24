@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionel Messi | The GOAT</title>
+    <meta name="description" content="Explore the legendary career, statistics, and achievements of Lionel Messi - the greatest of all time.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Ambient Background Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="progressBar"></div>
+    </div>
+    <!-- Header Navigation -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">MESSI<span>10</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#trophies">Trophies</a></li>
+                <li><a href="#family">Family</a></li>
+                <li><a href="#stats">Statistics</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#trophy-gallery">Trophy Gallery</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2 class="reveal">The Greatest of All Time</h2>
+                <h1 class="reveal">LIONEL MESSI</h1>
+                <p class="reveal">A journey from Rosario to the pinnacle of world football.</p>
+                <div class="hero-btns reveal">
+                    <a href="#about" class="btn primary">Explore Story</a>
+                    <a href="#stats" class="btn secondary">View Stats</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <img src="images/messi-nigeria-2018.jpg" alt="Lionel Messi Celebrating">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container grid">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="images/messi-argentina-2022.jpg" alt="Lionel Messi Portrait">
+                </div>
+            </div>
+            <div class="about-text">
+                <div class="section-title">
+                    <span>Discovery</span>
+                    <h2>Who is Lionel Messi?</h2>
+                </div>
+                <p><strong>Full Name:</strong> Lionel Andrés Messi</p>
+                <p><strong>Date of Birth:</strong> June 24, 1987</p>
+                <p><strong>Nationality:</strong> Argentine</p>
+                <p>Born in Rosario, Argentina, Lionel Messi's journey began with a struggle against growth hormone deficiency. His talent was undeniable, leading him to Barcelona at age 13, where the club agreed to pay for his medical treatment on a contract signed on a napkin. He has since become widely regarded as the greatest footballer of all time, winning 8 Ballon d'Or awards, leading Argentina to World Cup victory in 2022, and winning 45+ major trophies throughout his career.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-child"></i>
+                        <p>Early Life in Rosario</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-plane-departure"></i>
+                        <p>Move to La Masia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Timeline Section -->
+    <section id="career" class="career section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>The Journey</span>
+                <h2>Professional Career</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>FC Barcelona (2004 - 2021)</h3>
+                        <p>The era that defined football. 778 appearances, 672 goals, and 35 trophies. From a teenager to the club's greatest legend.</p>
+                        <span class="timeline-date">2004 - 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Paris Saint-Germain (2021 - 2023)</h3>
+                        <p>A new challenge in the City of Light. Won two Ligue 1 titles and continued to showcase his playmaking genius.</p>
+                        <span class="timeline-date">2021 - 2023</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Inter Miami (2023 - Present)</h3>
+                        <p>Conquering America. A historic move to MLS, bringing immediate success with the Leagues Cup trophy.</p>
+                        <span class="timeline-date">2023 - PRESENT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>Glory</span>
+                <h2>Major Achievements</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" style="cursor: pointer;" data-src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Lionel_Messi_20180626.jpg">
+                    <div class="icon-box">
+                        <i class="fas fa-trophy gold"></i>
+                    </div>
+                    <h3>8 Ballon d'Or</h3>
+                    <p>The record holder for the most prestigious individual award in football.</p>
+                </div>
+                <div class="achievement-card" style="cursor: pointer;" data-src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg">
+                    <div class="icon-box">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>World Cup 2022</h3>
+                    <p>Completing football. Leading Argentina to glory in Qatar.</p>
+                </div>
+                <div class="achievement-card" style="cursor: pointer;" data-src="images/messi-2018.jpg">
+                    <div class="icon-box">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Copa América 2021</h3>
+                    <p>Ending the international trophy drought with a historic win at the Maracanã.</p>
+                </div>
+                <div class="achievement-card" style="cursor: pointer;" data-src="images/messi-almeria-2014.jpg">
+                    <div class="icon-box">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>4 Champions Leagues</h3>
+                    <p>Dominating Europe with some of the best club sides in history.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trophies Section -->
+    <section id="trophies" class="trophies section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>Silverware</span>
+                <h2>Major Trophies Won</h2>
+            </div>
+            <div class="trophies-grid">
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>FIFA World Cup</h3>
+                    <p class="trophy-count">1 Trophy</p>
+                    <p class="trophy-detail">2022 - Qatar</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-medal"></i></div>
+                    <h3>Copa América</h3>
+                    <p class="trophy-count">2 Trophies</p>
+                    <p class="trophy-detail">2021, 2024</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-crown"></i></div>
+                    <h3>UEFA Champions League</h3>
+                    <p class="trophy-count">4 Trophies</p>
+                    <p class="trophy-detail">2006, 2009, 2011, 2015</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-star"></i></div>
+                    <h3>La Liga</h3>
+                    <p class="trophy-count">10 Trophies</p>
+                    <p class="trophy-detail">With Barcelona</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-award"></i></div>
+                    <h3>Ballon d'Or</h3>
+                    <p class="trophy-count">8 Awards</p>
+                    <p class="trophy-detail">2009-2015, 2019, 2021</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-cup"></i></div>
+                    <h3>Copa del Rey</h3>
+                    <p class="trophy-count">7 Trophies</p>
+                    <p class="trophy-detail">Barcelona Domestic Cup</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-ring"></i></div>
+                    <h3>UEFA Super Cup</h3>
+                    <p class="trophy-count">3 Trophies</p>
+                    <p class="trophy-detail">2009, 2011, 2015</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Ligue 1</h3>
+                    <p class="trophy-count">2 Trophies</p>
+                    <p class="trophy-detail">2022, 2023 - PSG</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-soccer-ball"></i></div>
+                    <h3>Leagues Cup</h3>
+                    <p class="trophy-count">1 Trophy</p>
+                    <p class="trophy-detail">2024 - Inter Miami</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-star-of-david"></i></div>
+                    <h3>The Best FIFA Player</h3>
+                    <p class="trophy-count">7 Awards</p>
+                    <p class="trophy-detail">2015, 2016, 2018, 2019, 2022, 2023</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-lightning-bolt"></i></div>
+                    <h3>Golden Ball</h3>
+                    <p class="trophy-count">2 Awards</p>
+                    <p class="trophy-detail">World Cup Best Player 2014, 2022</p>
+                </div>
+                <div class="trophy-card">
+                    <div class="trophy-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Total Trophies</h3>
+                    <p class="trophy-count">45+ Major Trophies</p>
+                    <p class="trophy-detail">Club & International</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Section -->
+    <section id="family" class="family section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>Close Ones</span>
+                <h2>Family & Personal Life</h2>
+            </div>
+            <div class="family-grid">
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Antonela Roccuzzo</h3>
+                        <p class="relation">Wife</p>
+                        <p class="description">Messi's wife and childhood sweetheart. They married in June 2017 in Rosario. Antonela is a model and social media personality who actively supports Messi's career.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Thiago Messi Roccuzzo</h3>
+                        <p class="relation">Son (First)</p>
+                        <p class="description">Born November 2012. Thiago is Messi's eldest son and often seen attending his father's matches with the family at Barcelona, Paris, and Miami.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Mateo Messi Roccuzzo</h3>
+                        <p class="relation">Son (Second)</p>
+                        <p class="description">Born September 2015. Mateo is known for his lively personality. The family frequently shares moments of him enjoying football and spending time supporting his father.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Ciro Messi Roccuzzo</h3>
+                        <p class="relation">Son (Third)</p>
+                        <p class="description">Born March 2018. The youngest of Messi's children from his marriage to Antonela. Ciro often enjoys playing football in the family's garden.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Mateo Messi</h3>
+                        <p class="relation">Son (from prev. relationship)</p>
+                        <p class="description">Born 2009. Messi's first son, born before marrying Antonela. Mateo is close with the entire family and frequently appears in family photos.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Jorge Horacio Messi</h3>
+                        <p class="relation">Father</p>
+                        <p class="description">Messi's father has been instrumental in his career development and personal management. He has been a constant presence supporting his son throughout his life and professional journey.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Celia María Cuccittini</h3>
+                        <p class="relation">Mother</p>
+                        <p class="description">Messi's mother played a crucial role in his upbringing and development. She is a beloved figure in his life and is frequently seen supporting him at matches around the world.</p>
+                    </div>
+                </div>
+                <div class="family-card">
+                    <div class="family-image">
+                        <i class="fas fa-people-group"></i>
+                    </div>
+                    <div class="family-info">
+                        <h3>Siblings & Extended Family</h3>
+                        <p class="relation">Family Support Circle</p>
+                        <p class="description">Messi has two brothers: Matías and Ney (Rodrigo). The Messi family remains close-knit and his brothers have supported him throughout his career. The family values privacy while maintaining strong bonds.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="personal-facts">
+                <h3>Personal Facts</h3>
+                <div class="facts-grid">
+                    <div class="fact-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <p><strong>Birthday:</strong> June 24, 1987</p>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><strong>Birthplace:</strong> Rosario, Argentina</p>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-ruler-vertical"></i>
+                        <p><strong>Height:</strong> 1.70m (5'7")</p>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-shirt"></i>
+                        <p><strong>Jersey Number:</strong> 10 (Career iconic)</p>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-dumbbell"></i>
+                        <p><strong>Position:</strong> Forward / Winger</p>
+                    </div>
+                    <div class="fact-item">
+                        <i class="fas fa-heart"></i>
+                        <p><strong>Supports:</strong> Newell's Old Boys</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats section-padding">
+        <div class="parallax-bg" style="background-image: url('images/messi-parallax-2018.jpg');"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h2 class="counter" data-target="1100">0</h2>
+                    <p>Matches</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="900">0</h2>
+                    <p>Goals</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="400">0</h2>
+                    <p>Assists</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="counter" data-target="44">0</h2>
+                    <p>Trophies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>Moments</span>
+                <h2>Career Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/messi-almeria-2014.jpg" alt="Messi Barcelona">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/messi-2018.jpg" alt="Messi Argentina 2018">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/messi-inter-miami.jpg" alt="Messi Inter Miami">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/messi-nigeria-2018.jpg" alt="Messi Trophy Celebration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trophy & World Cup Gallery Section -->
+    <section id="trophy-gallery" class="trophy-gallery section-padding">
+        <div class="container">
+            <div class="section-title centered">
+                <span>Glory Moments</span>
+                <h2>Trophy Lifting & World Cup Moments</h2>
+            </div>
+            <div class="trophy-gallery-grid">
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Trophy Celebration 1"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="World Cup Moment 2"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Trophy Lifting 3"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Champion Moment 4"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Trophy Celebration 5"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="World Cup 6"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Trophy Moment 7"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="Celebration 8"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Trophy 9"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Glory 10"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Champion 11"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Victory 12"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Lifting 13"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="World Cup 14"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Trophy 15"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Moment 16"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Celebration 17"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Glory 18"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Trophy 19"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="Champion 20"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Victory 21"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Lifting 22"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="World Cup 23"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Trophy 24"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Moment 25"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="Celebration 26"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Glory 27"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Trophy 28"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Champion 29"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Victory 30"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Lifting 31"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="World Cup 32"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Trophy 33"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Moment 34"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Celebration 35"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Glory 36"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Trophy 37"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="Champion 38"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Victory 39"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Lifting 40"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="World Cup 41"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Trophy 42"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Moment 43"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="Celebration 44"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-2018.jpg" alt="Glory 45"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-almeria-2014.jpg" alt="Trophy 46"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-inter-miami.jpg" alt="Champion 47"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-parallax-2018.jpg" alt="Victory 48"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-nigeria-2018.jpg" alt="Lifting 49"></div>
+                <div class="trophy-gallery-item"><img src="images/messi-argentina-2022.jpg" alt="World Cup 50"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MESSI<span>10</span></div>
+                <p>Designed to celebrate the legend of Lionel Messi.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lionel Messi Fan Page. No Copyright Infringement Intended.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Modal for Gallery -->
+    <div id="galleryModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
